@@ -1,6 +1,6 @@
 # django-wiki-customuser-test
 
-Demonstrates the [https://github.com/django-wiki/django-wiki/pull/865](problem) with django-wiki when using a custom user model with no `username` field
+Demonstrates the [problem](https://github.com/django-wiki/django-wiki/pull/865) with django-wiki when using a custom user model with no `username` field
 
 ```
 > ~/git/django-wiki-customuser-test$ make run

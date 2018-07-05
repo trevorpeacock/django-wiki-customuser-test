@@ -42,3 +42,7 @@ class MyUser(AbstractBaseUser):
     @property
     def is_staff(self):
         return True
+
+    @property
+    def is_superuser(self):
+        return True
